@@ -1,0 +1,43 @@
+.nav {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  .innerNav {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    h1 {
+      margin: 0;
+      margin-left: 10px;
+      font-size: 1.4rem;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .logoContainer {
+    display: flex;
+    cursor: pointer;
+    height: 80px;
+    align-items: center;
+    .square {
+      background-color: #65c1ff;
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    width: 100%;
+    .innerNav {
+      width: 90%;
+      margin: auto;
+    }
+  }
+}
